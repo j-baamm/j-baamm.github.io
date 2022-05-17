@@ -189,7 +189,13 @@ a.sidebar-nav-item:focus {
   background-color: rgba(255,255,255,.1);
   border-color: transparent;
 }
-
+.sidebar-nav-item-sub {
+    font-size: 90%;
+}
+.sidebar-nav-item-sub:before {
+    content: "";
+    padding-left: 2em;
+}
 @media (min-width: 48em) {
   .sidebar-item {
     padding: 1.5rem;
